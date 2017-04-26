@@ -3,4 +3,8 @@
   <p>
     <a href="/">Try again</a>
   </p>
+  <form method="post" action="/prediction">
+    <input name="postToTwitter" value="<%= @prediction %>" type="hidden">
+    <button type="submit">Post to Twitter!</button>
+</form>
 </div>
